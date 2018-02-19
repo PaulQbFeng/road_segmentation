@@ -1,32 +1,35 @@
-Libraries:
- The following libraries have to be installed to be able to run the project:
-  Keras      2.1.2
-  CudNN      6.0
-  Cuda       8.0
-  Tensorflow 1.4.0
-  h5py       2.7.1
-  cython     0.27.3
-We create our neural net with Keras and hpy5 allows to save the weights
-and to load them back in the neural network.
+Those are the different steps to follow to train the CNN used our road segmentation project.
 
-Instalation process:
- To install all these libraries you first download and install Cuda 8.0 from https://developer.nvidia.com/cuda-downloads
- Then download CudNN 6.0 from https://developer.nvidia.com/rdp/cudnn-download
- You now have to put the cudnn C:\...\cuda_v6\bin in your path environement variable.
- We assume that you have conda already installed.
- Now on the terminal run the following commands (we want to use gpu, in order to use cpu it's different command):
- 'C:> conda create -n tensorflow python=3.5
-  C:> activate tensorflow
-  (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu'
-  At this point you have Cuda, CudNN and Tensorflow working.
-  Now install Keras with command
-  'C:> pip install keras'
-  and
-  'C:> pip install h5py
-   C:> pip install cython'
-   (this last command is if you use windows, for linux please refer to this forum https://github.com/keras-team/keras/issues/3426)
+**Libraries**
 
+ The following libraries have to be installed to be able to run the project:  
+ 
+  - Keras      2.1.2  
+  - CudNN      6.0  
+  - Cuda       8.0  
+  - Tensorflow 1.4.0  
+  - h5py       2.7.1  
+  - cython     0.27.3 
+  
+We create our neural net with Keras and hpy5 allows us to save the weights of the model and to load them back in the convolutional neural network.
 
+**Instalation process**
+
+To install all these libraries you first download and install Cuda 8.0 from https://developer.nvidia.com/cuda-downloads
+Then download CudNN 6.0 from https://developer.nvidia.com/rdp/cudnn-download
+You now have to put the cudnn C:\...\cuda_v6\bin in your path environement variable.
+We assume that you have conda already installed.
+Now on the terminal run the following commands (we want to use gpu, in order to use cpu it's different command):
+C:> conda create -n tensorflow python=3.5
+C:> activate tensorflow
+(tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu'
+ 
+ At this point you have Cuda, CudNN and Tensorflow working.
+ Now install Keras with command  
+ C:> pip install keras 
+ C:> pip install h5py  
+ C:> pip install cython  
+ (this last command is if you use windows, for linux please refer to this forum https://github.com/keras team/keras/issues/3426)  
 
 Setup:
 Computer: Acer Aspire VN7-592G
