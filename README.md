@@ -27,7 +27,7 @@ C:> activate tensorflow
  At this point you have Cuda, CudNN and Tensorflow working.  
  Now install Keras with command    
  C:> pip install keras   
- C:> pip install h5py      
+ C:> pip install h5py       
  C:> pip install cython     
  (this last command is if you use windows, for linux please refer to this forum https://github.com/keras team/keras/issues/3426)    
 
