@@ -24,12 +24,11 @@ C:> conda create -n tensorflow python=3.5
 C:> activate tensorflow  
 (tensorflow)C:> pip install --ignore-installed --upgrade tensorflow-gpu'  
  
- At this point you have Cuda, CudNN and Tensorflow working.  
- Now install Keras with command    
- C:> pip install keras   
- C:> pip install h5py       
- C:> pip install cython     
- (this last command is if you use windows, for linux please refer to this forum https://github.com/keras team/keras/issues/3426)    
+At this point you have Cuda, CudNN and Tensorflow working.  
+Now install Keras with command    
+C:> pip install keras     
+C:> pip install h5py                                                                                                          <br>C:> pip install cython       
+(this last command is if you use windows, for linux please refer to this forum https://github.com/keras team/keras/issues/3426)    
 
 **Setup**
 
